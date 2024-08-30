@@ -1,0 +1,75 @@
+body {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+}
+
+div {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+header input {
+    border: none;
+    border-bottom: 0.1rem solid #fd7e14;
+    outline: none; 
+    background-color: #333;
+    color: white;
+}
+
+header button {
+    border-radius: 2rem;
+    padding: 5px 20px;
+    border: 0.1rem solid lightgrey;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+    color: #333;
+    transition: all 0.3s ease;
+    transform: scale(1); 
+}
+
+header button:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+    transform: scale(1);
+}
+
+.todoItem {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.actionsContainer {
+    display: flex;
+    gap: 10px; 
+
+}
+
+.actionsContainer button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 16px;
+    color: white; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.actionsContainer button:hover {
+    color: #fd7e14;
+    transform: scale(1.1);
+}
+
+.actionsContainer i {
+    font-size: 18px;
+}
